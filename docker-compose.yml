@@ -1,7 +1,7 @@
 version: '3.5'
 services:
   kodionrdp:
-#    image: rwd1/kodiOnRdp
+#    image: rwd1/kodionrdp
     build: .
     container_name: kodiOnRdp
     restart: always
