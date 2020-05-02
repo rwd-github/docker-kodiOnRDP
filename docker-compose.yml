@@ -1,0 +1,14 @@
+version: '3.5'
+services:
+  kodionrdp:
+#    image: rwd1/kodiOnRdp
+    build: .
+    container_name: kodiOnRdp
+    restart: always
+    volumes:
+      - ./kodihome:/home/kodiuser/.kodi
+    environment:
+      KODIUSERPWD: ${KODIUSERPWD:-08topsecret15}
+    ports:
+      - ${KODIPORT:-3389}:3389
+
