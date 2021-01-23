@@ -1,3 +1,5 @@
+DEPRECATED moved to: https://gitlab.com/ytdocker/collection
+
 # docker-kodiOnRDP
 
 starts xRDP and in the session only Kodi, no other gui-stuff.
